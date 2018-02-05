@@ -1,0 +1,16 @@
+#Controller Request
+controller:
+    path: /{controller}{slash}
+    requirements:
+        id: "[1-9][0-9]*"
+        slash: "[/]{0,1}"
+    methods: [GET,POST,DELETE,PUT]
+
+
+#Controller with action Request
+controllerAction:
+    path: /{controller}/{action}{slash}
+    requirements:
+        id: "[1-9][0-9]*"
+        slash: "[/]{0,1}"
+    methods: [GET,POST,DELETE,PUT]

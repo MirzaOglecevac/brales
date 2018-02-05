@@ -1,0 +1,7 @@
+parameters:
+    general:
+      db_host: 'localhost'
+      db_name: 'brales'
+      db_user: 'admin'
+      db_password: 'mirza'
+      main_url: 'http://api.wobbl.io'

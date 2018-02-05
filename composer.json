@@ -1,0 +1,30 @@
+{
+    "name": "brales/porn",
+    "description": "This is a happy website",
+    "type": "project",
+    "license": "mit",
+    "autoload": {
+        "psr-4": { "": "src" }
+    },
+    "authors": [
+        {
+            "name": "rarslan",
+            "email": "terminatorarslan@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "sensio/distribution-bundle": "^5.0",
+        "google/apiclient": "^2.0@dev",
+        "bshaffer/oauth2-server-php": "~1.8",
+        "symfony/dependency-injection": "^3.3",
+        "guzzlehttp/guzzle": "^6.2@dev",
+        "symfony/routing": "3.4.x-dev",
+        "symfony/http-foundation": "3.4.x-dev",
+        "sensio/framework-extra-bundle": "^3.0@dev",
+        "symfony/yaml": "3.4.x-dev",
+        "symfony/finder": "^3.4@dev",
+        "symfony/console": "^3.4@dev"
+    }
+
+}

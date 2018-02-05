@@ -1,0 +1,4 @@
+services:
+
+    db.pdo:
+        class: 'Brales\Core\Database\PDOCompat'

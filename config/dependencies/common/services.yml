@@ -1,0 +1,5 @@
+services:
+
+    service.image:
+        class: 'Brales\Models\Services\ImageService'
+        arguments: ['@factory.mapper']

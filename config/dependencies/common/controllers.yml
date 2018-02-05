@@ -1,0 +1,5 @@
+services:
+
+    controller.image:
+        class: 'Brales\Presentation\Controller\ImageController'
+        arguments: ['@service.image']
