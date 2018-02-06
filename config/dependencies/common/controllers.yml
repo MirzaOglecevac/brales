@@ -3,3 +3,9 @@ services:
     controller.image:
         class: 'Brales\Presentation\Controller\ImageController'
         arguments: ['@service.image']
+    controller.video:
+            class: 'Brales\Presentation\Controller\VideoController'
+            arguments: ['@service.video']
+    controller.profile:
+            class: 'Brales\Presentation\Controller\ProfileController'
+            arguments: ['@service.profile']

@@ -27,7 +27,7 @@ class ImageService
      * @param source $
      * @param tags $
      */
-    public function addImage ($accessToken, $source, $tags = []){
+    public function addImage ($accessToken, $source, $name, $tags = []){
 
         // obtain user id
         $userId = 1;
@@ -198,7 +198,6 @@ class ImageService
      */
     public function downloadImage ($accessToken, $id)
     {
-
         $userId = $id;
 
         $shared = new Shared();

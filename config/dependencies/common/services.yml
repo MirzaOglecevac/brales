@@ -3,3 +3,9 @@ services:
     service.image:
         class: 'Brales\Models\Services\ImageService'
         arguments: ['@factory.mapper']
+    service.video:
+            class: 'Brales\Models\Services\VideoService'
+            arguments: ['@factory.mapper']
+    service.profile:
+                class: 'Brales\Models\Services\ProfileService'
+                arguments: ['@factory.mapper']

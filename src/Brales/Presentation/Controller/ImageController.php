@@ -30,10 +30,11 @@ class ImageController
         // get value from params
         $source = isset($params['source']) ? $params['source'] : null;
         $tags = isset($params['tags']) ? $params['tags'] : null;
+        $name = isset($params['name']) ? $params['name'] : null;
 
         // check if has values
         if($source && $tags){
-            $addImage = $this->imageService->addImage($accessToken,$source,$tags);
+            $addImage = $this->imageService->addImage($accessToken,$source, $name, $tags);
         }
         // if not show bad request
         else{
